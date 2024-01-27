@@ -2,7 +2,7 @@
 
 ## Created an art gallery database with the following tables: 
 ArtistInfoT <br>
-EventT <br>
+<br> EventT <br>
 EmployeeInfoT <br>
 ProductInfoT <br>
 CustomerInterestT <br>
