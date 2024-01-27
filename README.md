@@ -1,7 +1,7 @@
 # Art-Gallery-Management-
 
 ## Created an art gallery database with the following tables: 
-ArtistInfoT
+ArtistInfoT <br>
 EventT
 EmployeeInfoT
 ProductInfoT
