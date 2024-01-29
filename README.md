@@ -21,7 +21,7 @@ partnerOrg_auditT <br>
 
 SL.  NO. |	TABLE NAME	| TABLE DESCRIPTION |
 | ------ |:------------:|:-----------------:|
-1	ArtistInfoT	Record of Artist’s personal information
+|   1	   | ArtistInfoT	| Record of Artist’s personal information |
 
 2	ArtistContractT	Details of an artist’s contract with the art gallery
 3	EmployeeInfoT 	Record of the gallery’s employees
