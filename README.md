@@ -22,7 +22,7 @@
 
 
 There are: 
-2 Functions : 
+2 Functions : <br>
 > TotalPurchase(): To return the total purchase amount of a customer.
 > TotalSales(): To return the total sales made by an artist
 
