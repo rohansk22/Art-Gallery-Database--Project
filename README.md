@@ -21,7 +21,20 @@
 |  17	   | EventT	| Record of events hosted by the art gallery |
 
 
-Stored Programs: 
-Stored programs are used to execute a set of instructions multiple times and to automate processes. 
-They are used to create functions, triggers, and stored procedures, which are all ways of reusing code and making it easier to execute complex tasks. 
+There are: 
+2 Functions : 
+> TotalPurchase(): To return the total purchase amount of a customer.
+> TotalSales(): To return the total sales made by an artist
+
+
+3 Stored Procedures: 
+> GetCustomerLevel(): Classifies customers based on their purchase amount - Silver, Gold and Platinum
+> GetArtistLevel(): Classifies artists based on their purchase amount - Rookie, Novice, Expert, Genius
+> GetPlanner(): Shows all the events taking place on a particular date
+
+4 Triggers: 
+> artistContract_UpdateT: It is a pre update trigger that stores all the details of an artist who renews his contract with the gallery
+> pastPartnerOrg deleteT: This is a pre delete trigger which stores the information of a partner when he leaves the organization
+> ledger_CreditT: A post insert trigger that checks the value of a new record and stores the information into the credit if transaction amount> 0, or debit, if transaction amount<0.
+> salesT: A pre insert trigger that updates the sales table based on a transaction 
 
