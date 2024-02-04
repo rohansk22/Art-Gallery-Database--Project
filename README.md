@@ -22,17 +22,17 @@
 
 
 There are: 
-2 Functions : <br>
+** 2 Functions: ** <br>
 > TotalPurchase(): To return the total purchase amount of a customer. <br>
 > TotalSales(): To return the total sales made by an artist <br>
 
 
-3 Stored Procedures: <br>
+** 3 Stored Procedures: ** <br>
 > GetCustomerLevel(): Classifies customers based on their purchase amount - Silver, Gold and Platinum <br>
 > GetArtistLevel(): Classifies artists based on their purchase amount - Rookie, Novice, Expert, Genius <br>
 > GetPlanner(): Shows all the events taking place on a particular date <br>
 
-4 Triggers: <br>
+** 4 Triggers: ** <br>
 > artistContract_UpdateT: It is a pre update trigger that stores all the details of an artist who renews his contract with the gallery <br>
 > pastPartnerOrg deleteT: This is a pre delete trigger which stores the information of a partner when he leaves the organization <br>
 > ledger_CreditT: A post insert trigger that checks the value of a new record and stores the information into the credit if transaction amount> 0, or debit, if transaction amount<0 <br>
