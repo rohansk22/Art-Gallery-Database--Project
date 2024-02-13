@@ -1,3 +1,7 @@
+A project showcasing a database in MySQL and querying data for different uses.
+
+
+
 # Art-Gallery-Database 
 
 | SL.NO. |	TABLE NAME	| TABLE DESCRIPTION |
